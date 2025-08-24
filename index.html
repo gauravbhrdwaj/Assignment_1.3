@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Admin Dashboard</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <!-- Header -->
+  <header class="header">
+    <h1 class="logo">MyDashboard</h1>
+    <div class="header-right">
+      <button id="theme-toggle">🌙</button>
+      <img src="https://via.placeholder.com/40" class="profile" alt="Profile">
+    </div>
+  </header>
+
+  <!-- Sidebar -->
+  <aside class="sidebar">
+    <nav>
+      <a href="#">🏠 Dashboard</a>
+      <a href="#">📊 Analytics</a>
+      <a href="#">📁 Projects</a>
+      <a href="#">⚙ Settings</a>
+    </nav>
+  </aside>
+
+  <!-- Main Content -->
+  <main class="main">
+    <section class="cards">
+      <div class="card">Users <h2>1,230</h2></div>
+      <div class="card">Sales <h2>$9,200</h2></div>
+      <div class="card">Orders <h2>340</h2></div>
+      <div class="card">Revenue <h2>$23,400</h2></div>
+    </section>
+
+    <section class="table-section">
+      <h2>Recent Orders</h2>
+      <table>
+        <tr><th>ID</th><th>Customer</th><th>Status</th></tr>
+        <tr><td>101</td><td>Alice</td><td>✅ Completed</td></tr>
+        <tr><td>102</td><td>Bob</td><td>⏳ Pending</td></tr>
+        <tr><td>103</td><td>Charlie</td><td>❌ Canceled</td></tr>
+      </table>
+    </section>
+
+    <section class="activity">
+      <h2>Recent Activity</h2>
+      <ul>
+        <li>✔ User John registered</li>
+        <li>📦 New order placed</li>
+        <li>⚠ Low stock alert</li>
+      </ul>
+    </section>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>
